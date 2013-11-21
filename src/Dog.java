@@ -1,5 +1,3 @@
-import animals.Animals;
-
 public class Dog extends Animals {
 
 	private String dogBreed;
