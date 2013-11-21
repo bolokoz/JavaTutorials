@@ -1,7 +1,15 @@
-public class Dog {
+import animals.Animals;
+
+public class Dog extends Animals {
 
 	private String dogBreed;
 	private String dogName;
+
+	@Override
+	public void whereYouFrom() {
+		// TODO Auto-generated method stub
+		super.whereYouFrom();
+	}
 
 	public Dog(String name, String breed) {
 		dogName = name;

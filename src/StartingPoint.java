@@ -4,6 +4,7 @@ public class StartingPoint {
 		Dog jerome = new Dog("Jerome", "GoldenRetriever");
 		Dog henry = new Dog("Henry", "PitBull");
 
+		jerome.whereYouFrom();
 		jerome.sayBreed();
 		jerome.sayName();
 		jerome.bark();
