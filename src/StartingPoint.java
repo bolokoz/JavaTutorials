@@ -9,6 +9,7 @@ public class StartingPoint {
 		jerome.bark();
 		jerome.cry();
 		jerome.dig();
+		// ASDASDASDASDASD TESTE ##@#!@
 
 	}
 }
