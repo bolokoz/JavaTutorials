@@ -1,12 +1,14 @@
 public class StartingPoint {
 	public static void main(String yuri[]) {
 
-		Dog Jerome;
-		Jerome = new Dog();
+		Dog jerome = new Dog("Jerome", "GoldenRetriever");
+		Dog henry = new Dog("Henry", "PitBull");
 
-		Jerome.bark();
-		Jerome.cry();
-		Jerome.dig();
+		jerome.sayBreed();
+		jerome.sayName();
+		jerome.bark();
+		jerome.cry();
+		jerome.dig();
 
 	}
 }
