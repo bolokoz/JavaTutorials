@@ -1,16 +1,10 @@
 public class StartingPoint {
 	public static void main(String yuri[]) {
 
-		Dog jerome = new Dog("Jerome", "GoldenRetriever");
-		Dog henry = new Dog("Henry", "PitBull");
+		Travis t = new Travis();
 
-		jerome.whereYouFrom();
-		jerome.sayBreed();
-		jerome.sayName();
-		jerome.bark();
-		jerome.cry();
-		jerome.dig();
-		// ASDASDASDASDASD TESTE ##@#!@
-
+		System.out.print(t.getHit());
+		int i = t.damage(200, 1);
+		System.out.print("\n" + i);
 	}
 }
